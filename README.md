@@ -1,6 +1,8 @@
 # Terraform Github Provider User and Teams management
 If you want to manage user and teams in github through terraform, this is the repo for you.
 
+This repo makes use of the Github Terraform Provider https://registry.terraform.io/providers/integrations/github/latest/docs 
+
 Things you will need to setup:
 - Github Org
 - Github App - create it, install it in the org, create a private key
