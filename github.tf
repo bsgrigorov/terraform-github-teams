@@ -1,6 +1,6 @@
 locals {
-  users = yamldecode(file("${path.module}/users.yaml"))
-  teams = yamldecode(file("${path.module}/teams.yaml"))
+  users = yamldecode(file("${path.module}/teams/users.yaml"))
+  teams = yamldecode(file("${path.module}/teams/teams.yaml"))
 }
 
 resource "github_membership" "org_members" {
