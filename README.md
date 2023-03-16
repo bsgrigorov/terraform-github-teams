@@ -29,3 +29,5 @@ terraform validate
 terraform plan --var-file vars.tfvars
 terraform apply --var-file vars.tfvars
 ```
+
+Note: the users that you add to your org will need to accept the invite before they appear in any teams.
