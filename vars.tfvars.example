@@ -1,0 +1,4 @@
+github_organization_name   = ""
+github_app_id              = 123456
+github_app_installation_id = 12345678
+github_app_pem_file_path   = "github-app-private-key.pem"

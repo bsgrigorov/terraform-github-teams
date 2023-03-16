@@ -1,0 +1,16 @@
+team1:
+  description: "first team in the org"
+  maintainers:
+  - jon.doe
+
+team2:
+  description: "second team, but an improvement"
+  maintainers:
+  - jon.doe
+  members:
+  - sally.sue
+
+team3:
+  description: "third time's the charm"
+  maintainers:
+  - sally.sue
